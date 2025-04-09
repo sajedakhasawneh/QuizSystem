@@ -1,0 +1,61 @@
+
+
+ [
+        {
+          "question": "What is the next number in the sequence: 1, 4, 9, 16, ?",
+          "choices": ["25", "30", "20", "18"],
+          "correct_answer": "25"
+        },
+        {
+          "question": "Which one of the following is the largest?",
+          "choices": ["2.4", "2.5", "2.7", "2.9"],
+          "correct_answer": "2.9"
+        },
+        {
+          "question": "If you rearrange the letters 'PANEL', you can form the name of a?",
+          "choices": ["Planet", "Plane", "Napel", "Panel"],
+          "correct_answer": "Planet"
+        },
+        {
+          "question": "Which number is the odd one out? 2, 3, 5, 7, 9",
+          "choices": ["2", "3", "5", "9"],
+          "correct_answer": "9"
+        },
+        {
+          "question": "Which shape is next in the sequence: Square, Circle, Square, Circle, ?",
+          "choices": ["Square", "Circle", "Triangle", "Hexagon"],
+          "correct_answer": "Square"
+        },
+        {
+          "question": "What is the opposite of 'up'?",
+          "choices": ["Down", "Side", "Left", "Right"],
+          "correct_answer": "Down"
+        },
+        {
+          "question": "If all roses are flowers and some flowers fade quickly, what can be concluded?",
+          "choices": [
+            "All roses fade quickly",
+            "Some roses fade quickly",
+            "No roses fade quickly",
+            "Some flowers are roses"
+          ],
+          "correct_answer": "Some roses fade quickly"
+        },
+        {
+          "question": "What comes next in the series: A, C, E, G, ?",
+          "choices": ["I", "H", "J", "K"],
+          "correct_answer": "I"
+        },
+        {
+          "question": "If five cats catch five mice in five minutes, how many cats will catch 100 mice in 100 minutes?",
+          "choices": ["10", "50", "100", "5"],
+          "correct_answer": "5"
+        },
+        {
+          "question": "Which of the following words is different from the others?",
+          "choices": ["Apple", "Banana", "Grape", "Carrot"],
+          "correct_answer": "Carrot"
+        }
+      ]
+     
+  

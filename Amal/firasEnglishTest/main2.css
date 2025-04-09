@@ -1,0 +1,177 @@
+
+
+body {
+    background: linear-gradient(135deg, #f5f7fa, #c3cfe2); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+.CardDiv{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 2.95);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    width: 45vw;
+    text-align: left;
+    z-index: 1000;
+}
+
+.next-button {
+    display: none; 
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.next-button:hover {
+    background-color: #0056b3;
+}
+
+.fail{
+    background-color: rgb(255, 39, 39);
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 2.95);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    width: 45vw;
+    text-align: left;
+    z-index: 1000;
+    height: 35vw;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.pass{
+    background-color:rgb(43 171 0);
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 2.95);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    width: 45vw;
+    text-align: left;
+    z-index: 1000;
+    height: 35vw;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+
+.close-button {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    color: #555;
+} 
+
+ .close-button:hover {
+    color: #333;
+} 
+
+.reviewDiv{
+    display: none;
+    flex-direction: column;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 2.95);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    width: 45vw;
+    text-align: left;
+    z-index: 1001;
+    overflow-y: scroll;
+    height:550px;
+    
+}
+
+
+.reviewBtn{
+
+
+    --color: #560bad;
+    font-family: inherit;
+    display: inline-block;
+    width: 15em;
+    height: 2.6em;
+    line-height: 2.5em;
+    margin: 20px;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    border: 2px solid var(--color);
+    transition: color 0.5s;
+    z-index: 1;
+    font-size: 17px;
+    border-radius: 6px;
+    font-weight: 500;
+    color: var(--color);
+  }
+  
+  .reviewBtn:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    background: var(--color);
+    height: 150px;
+    width: 200px;
+    border-radius: 50%;
+  }
+  
+  .reviewBtn:hover {
+    color: #fff;
+  }
+  
+  .reviewBtn:before {
+    top: 100%;
+    left: 100%;
+    transition: all 0.7s;
+  }
+  
+  .reviewBtn:hover:before {
+    top: -30px;
+    left: -30px;
+  }
+  
+  .reviewBtn:active:before {
+    background: #3a0ca3;
+    transition: background 0s;
+  }

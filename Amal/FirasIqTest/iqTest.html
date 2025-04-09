@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="main3.css" />
+  </head>
+  <body onload="readTestData()">
+    <div id="cardDivID" class="CardDiv">
+
+      <p id="question"></p>
+      <br /><br />
+      <div id="options"></div>
+      <button onclick="NextBtn()" id="next-button" class="next-button" >Next</button>
+    </div>
+    <div id="reviewDiv" class="reviewDiv">
+        <button class="close-button" id="closeButtonReviewDiv" onclick='closeButtonReviewDiv()'>×</button>
+
+        <h1>IQ Quiz </h1>
+
+    </div>
+    <script src="main3.js"></script>
+  </body>
+</html>

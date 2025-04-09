@@ -1,0 +1,117 @@
+body{
+    background-color:white;
+    width: 100vw;
+    height: 100vh;
+}
+#container{
+    width: 37vw;
+    height: 35vw;
+    border: 1px solid #663f18;
+    box-shadow: 1vw 1vw 1vw #B6A28E;
+    /* border-radius: 5vw; */
+    background-color: #ffffff;
+    margin-left: 33vw;
+    margin-top: 7vw;
+   
+}
+#the-qwestion{
+    font-size: 1.5vw;
+    text-align: center;
+
+
+
+}
+#choices{
+    width: 30vw;
+    height: 25vw;
+    background-color: rgb(255, 249, 249);
+    margin-left: 3.5vw;
+    margin-top: 3vw;
+
+}
+#next-button{
+    /* display: none; */
+    background-color: #4CAF50;
+    color: white;
+    padding: 0.5vw;
+    margin: 5px 0;
+    border: none;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 2vw;
+    font-size: 1.5vw;
+
+}
+#next-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+.choicebutton{
+    display: block;
+   border: 2px solid rgb(0, 0, 0);
+    color: rgb(14, 14, 14);
+    padding: 1vw;
+    margin: 1vw 0;
+    border: none;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 2vw;
+  }
+
+  .choicebutton:hover{
+    background-color: rgba(152, 143, 143, 0.586);
+  }
+ #result{
+    display: none;
+    width: 37vw;
+    height: 35vw;
+    margin-left: 33vw;
+    margin-top:20vw;
+    border:1px solid rgba(171, 172, 170, 0.596);
+    /* box-shadow: 0.5vw 0.5vw 0.5vw green; */
+
+ }
+ #word{
+    font-size: 4vw;
+    text-align: center;
+    padding-top: 3vw;
+}
+#numresulr{
+    font-size: 2vw;
+    text-align: center;
+    padding-top: -10vw;
+    margin-top: -3.5vw;
+}
+#more{
+    width: 10vw;
+    margin-left: 14vw;
+    margin-top: 7vw;
+    font-size: 2vw;
+}
+/* #detais{
+    border: 1px solid black;
+    width:50vw ;
+    height: 65vw;
+    margin-left: 27vw;
+   margin-top: 10vw;
+   font-size: 5vw;
+   background-color: #663f18;
+   display: none;
+} */
+ #d1{
+    font-size: 0.5vw;
+    text-align: left;
+    padding-top: 3vw;
+    padding-left: 2vw;
+    color: black;
+
+ }
+ .st{
+    font-size: 1vw;
+    width: 37.2vw;
+    height: 5vw;
+    background-color:white;
+    margin-left: 33vw;
+    border: 1vw 1vw 1vw black;
+ }

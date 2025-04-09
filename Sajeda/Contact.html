@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="Contact.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.min.css">
+
+
+    <link rel="shortcut icon" href="./assets/images/favicon.png" type="image/svg+xml">
+
+    <!-- 
+      -  css
+    -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+  
+    <!-- 
+      - google font
+    -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Source+Sans+Pro:wght@600;700&display=swap"
+      rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600&family=Source+Sans+Pro:wght@600;700&display=swap"
+      rel="stylesheet">
+  
+
+
+</head>
+<body id="top">
+
+
+
+    <header class="header" data-header style="background-color: rgb(21, 21, 21);">
+        <div class="container">
+    
+          <div class="overlay" data-overlay></div>
+    
+          <a href="/Hala/index.html" class="logo">
+            Tech <i>Node</i>
+          </a>
+    
+          <nav class="navbar" data-navbar>
+    
+            <div class="navbar-top">
+              <a href="#" class="logo logo-dark">
+                Tech <i>Node</i>
+              </a>
+              <button class="nav-close-btn" aria-label="Close Menu" data-nav-close-btn>
+                <ion-icon name="close-outline"></ion-icon>
+              </button>
+            </div>
+    
+            <ul class="navbar-list">
+    
+              <li class="navbar-item">
+                <a href="../Hala/index.html" class="navbar-link" data-navbar-link>Home</a>
+              </li>
+    
+              <li class="navbar-item">
+                <a href="/Firas/mainCards/firasCards.html" class="navbar-link" data-navbar-link>Quizzes</a>
+              </li>
+    
+              <li class="navbar-item">
+                <a  href="/Hala/index.html#services" class="navbar-link" data-navbar-link>Services</a>
+              </li>
+    
+    
+              <li class="navbar-item">
+                <a href="../Hazem/AboutUs.html" class="navbar-link" data-navbar-link>About Us</a>
+              </li>
+    
+              <li class="navbar-item">
+                <a href="../Sajeda/Contact.html" class="navbar-link" data-navbar-link>Contact Us</a>
+              </li>
+              <li class="search-box">
+                <button class="btn-search"><i class="bx bx-search"></i></button>
+                <input type="text" class="input-search" placeholder="Search...">
+              </li>
+              
+
+              <li id="login-button">
+                <!-- Login Button -->
+                <button class="button button-item" ><a href="../Sajeda/Log.html">
+                  <span class="button-bg">
+                    <span class="button-bg-layers">
+                      <span class="button-bg-layer button-bg-layer-1 -purple"></span>
+                      <span class="button-bg-layer button-bg-layer-2 -turquoise"></span>
+                      <span class="button-bg-layer button-bg-layer-3 -yellow"></span>
+                    </span>
+                  </span></a>
+                  <a style="text-decoration: none;color: white;" href="/Sajeda/Log.html"><span class="button-inner" id="log_in">Login </span></a>
+                </button>
+    
+    
+              </li>
+              <li class="nav_none" id="logout-button">
+                <!-- Login Button -->
+    
+                <button onclick="logoutBTN()" class="button button-item" >
+                  <span class="button-bg">
+                    <span class="button-bg-layers">
+                      <span class="button-bg-layer button-bg-layer-1 -purple"></span>
+                      <span class="button-bg-layer button-bg-layer-2 -turquoise"></span>
+                      <span class="button-bg-layer button-bg-layer-3 -yellow"></span>
+                    </span>
+                  </span></a>
+                  <span class="button-inner" id="">Log Out </span>
+                </button>
+    
+    
+              </li>
+              <li style=" margin-left: 10px; "id="profile-icon" class="nav_none">
+                <a href="../Bilal/Profile.html" style="display: inline-block; width: 40px; height: 40px; overflow: hidden; border-radius: 50%;">
+                    <img id="profile-image" src="../Hala/assets/images/user (1).png " style="width: 100%; height: 100%; object-fit: cover;">
+                </a>
+            </li>
+            
+            </ul>
+    
+          </nav>
+    
+          <!-- <a href="#" class="btn">
+            <i class='bx bx-search' aria-hidden="true"></i>
+    
+            <span>Search</span>
+          </a> -->
+    
+    
+    
+          <button class="nav-open-btn" aria-label="Open Menu" data-nav-open-btn>
+            <ion-icon name="menu-outline"></ion-icon>
+          </button>
+    
+        </div>
+      </header>
+
+
+
+    <div class="heading">
+        <h1>Contact us</h1><br>
+        <p>Have a questions, feedback or need support? We're here to help!<br>Feel free to contact us using the form below of via the provided details.</p>
+    </div>
+
+    <br>
+
+    <section id="fixeddata">
+
+
+        <div class="clmfixed">
+
+            <div class="getintouch">
+                <h2>Get in Touch</h2>
+                    <p class="pardiv">Fill out the form below or use the details provided t get in touch with us. Your feedback and questions are important to us!</p>
+            </div>
+
+            <div class="directcontent">
+                    <div class="flexicon">
+                        <i class="fa fa-envelope" aria-hidden="true" class="socialIcons" style=" font-size: 30px;"></i>
+                        <div class="flexfixeddata">
+                            <h5>Email Us</h5>
+                            <a href="mailto:sajedakhasawneh5@gmail.com">sajedakhasawneh5@gmail.com</a>
+                        </div>   
+                    </div>
+
+                    <br><br>
+
+                    <div class="flexicon">
+                        <i class="fa fa-phone-square" aria-hidden="true" class="socialIcons" style=" font-size: 30px;"></i>
+                        <div class="flexfixeddata">
+                            <h5>Call Us</h5>
+                            <a href="+968 798902468">+968 798902468</a>
+                        </div>
+                    </div>
+
+                    <br><br>
+
+                    <div class="flexicon">
+                        <i class="fa fa-map-marker" aria-hidden="true" class="socialIcons" style=" font-size: 38px;"></i>
+                        <div class="flexfixeddata">
+                            <h5 >Head Office</h5>
+                            <p style="color: gold; font-weight: bolder;">Irbid, Jordan</p>
+                        </div>
+                    </div>
+                
+            </div>
+         </div>
+        <div class="imgcontact">
+            <img src="img/teamwork.svg" width="350" height="350">
+        </div>
+
+    </section>
+
+
+
+
+        
+    <section id="section3">
+        
+        <!-- <div class="imgsection3">
+            <img src="img/contactsection.png" style="width: 100; height: 75;">
+        </div> -->
+
+        <div class="section3flex">
+            <h2>Send Us a Message</h2><br>
+            <p>Fill out the form below or use the details provided to get in touch with us.<br>Your feedback and questions are important to us!</p>
+        </div>
+
+
+        
+    <section class="contactsection">
+    
+        <div id="contactform">
+            
+            <br><br><br><br>
+            <form  onsubmit="storeform(event)">
+
+                <div class="formflex">
+                    <div>
+                        <label for="fname">First Name</label><br>
+                        <input type="text" id="fname">
+                    </div>
+
+                    <div>
+                        <label for="lname">Last Name</label><br>
+                        <input type="text" id="lname">
+                    </div>
+                </div>
+                <br>
+
+                                    
+                <div class="formflex">
+                    <div>
+                        <label for="email">Email</label><br>
+                        <input type="email" id="email">
+                    </div>
+                        
+                    <div>
+                        <label for="phone">Phone</label><br>
+                        <input type="number" id="phone">
+                    </div>
+                </div>
+
+
+                <br>
+                <div>
+                    <label for="message">Message</label><br><br>
+                    <textarea id="message" rows="8" cols="30"></textarea>
+                </div>
+
+                <br>
+                <input type="submit" id="submit" value="Send" class="btn">
+                <br>
+                <br>
+             
+            </form>
+        </div>
+
+        <!-- <div class="contactimg">
+            <img src="img/contactsection.png">
+        </div> -->
+  
+
+    </section>
+    </section>
+        
+<br>
+<br>
+
+
+    <section id="faqs">
+
+            <!-- <div class="faqsheadques">   -->
+                <h2>Frequently Asked Questions</h2><br>
+                <div class="faqsflex">
+                    <div class="accordion">
+                        <div class="accordion-header">
+                            <h4>How do I sign up for the quiz website?</h4>
+                            <button>+</button>
+                        </div>
+                        <div class="accordion-body">
+                            <p>You Can sign up by clicking the "Sign up" button at the top of the homepage.<br>Fill in your details and verify your email to start participating in quizzes.</p>
+                        </div>
+                    </div>
+
+                    <div class="accordion">
+                        <div class="accordion-header">
+                            <h4>How can I track my progress?</h4>
+                            <button>+</button>
+                        </div>
+                        <div class="accordion-body">
+                            <p>You can track your progress in the "My profile page. You'll find your scores,<br>completed quizzes and ranking</p>
+                        </div>
+                    </div>
+
+                    <div class="accordion">
+                        <div class="accordion-header">
+                            <h4>How can I track my progress?</h4>
+                            <button>+</button>
+                        </div>
+                        <div class="accordion-body">
+                            <p>You can track your progress in the "My profile page. You'll find your scores,<br>completed quizzes and ranking</p>
+                        </div>
+                    </div>
+
+                    <div class="accordion">
+                        <div class="accordion-header">
+                            <h4>How can I track my progress?</h4>
+                            <button>+</button>
+                        </div>
+                        <div class="accordion-body">
+                            <p>You can track your progress in the "My profile page. You'll find your scores,<br>completed quizzes and ranking</p>
+                        </div>
+                    </div>
+                </div>
+             <!-- </div> -->
+              
+    </section> 
+
+    <section>
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3043.348495403951!2d35.847093875112236!3d32.55259009542249!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151c7715f2c2e7ab%3A0x51755840c8ddbefd!2sOrange%20Digital%20Village%20Irbid!5e1!3m2!1sen!2sjo!4v1736715810204!5m2!1sen!2sjo" width="770" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> 
+       </div> 
+    </section>
+
+
+
+
+
+    <footer class="footer">
+
+        <div class="footer-top section">
+          <div class="container">
+    
+            <div class="footer-brand">
+    
+              <a href="#" class="logo">
+                Tech <i>Node</i>
+              </a>
+              <p class="text">
+                Your trusted partner for learning and growth. Explore expertly crafted courses and engaging quizzes designed
+                to challenge your mind, enhance your skills, and unlock your potential. Start your journey today with
+                TechNode and achieve greatness.
+              <ul class="social-list">
+    
+                <li>
+                  <a href="https://web.facebook.com/?_rdc=1&_rdr" class="social-link">
+                    <ion-icon name="logo-facebook"></ion-icon>
+                  </a>
+                </li>
+    
+                <li>
+                  <a href="https://www.instagram.com/direct/inbox/" class="social-link">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                  </a>
+                </li>
+    
+                <li>
+                  <a href="https://x.com/?lang=en&mx=2" class="social-link">
+                    <ion-icon name="logo-twitter"></ion-icon>
+                  </a>
+                </li>
+    
+              </ul>
+    
+            </div>
+    
+            <ul class="footer-list">
+    
+              <li>
+                <p class="footer-list-title">Our links</p>
+              </li>
+    
+              <li>
+                <a href="#home" class="footer-link">Home</a>
+              </li>
+    
+              <li>
+                <a href="#About" class="footer-link">About Us</a>
+              </li>
+    
+              <li>
+                <a href="#Services" class="footer-link">Services</a>
+              </li>
+    
+              <li>
+                <a href="#Contact" class="footer-link">Contact US</a>
+              </li>
+    
+            </ul>
+    
+            <ul class="footer-list">
+    
+              <li>
+                <p class="footer-list-title">Our Services</p>
+              </li>
+    
+              <li>
+                <a target="_blank" href="https://immi.homeaffairs.gov.au/visas/working-in-australia/skills-assessment"
+                  class="footer-link">Skill Assessment</a>
+              </li>
+    
+              <li>
+                <a target="_blank"
+                  href="https://artsadministration.org/programs/?program-filter-degrees=&program-filter-state=&deg=cert&opt=all&cnt=all&gad_source=1&gclid=CjwKCAiA7Y28BhAnEiwAAdOJUFiRHTH0xXtWm1Uwlbs7R_qXsFijUyPd6JHR3qU6PEJW1yndfpVaKxoCeaoQAvD_BwE"
+                  class="footer-link">Certification Programs</a>
+              </li>
+    
+              <li>
+                <a target="_blank"
+                  href="https://www.scholastic.com/parents/family-life/social-emotional-learning/technology-and-kids/understanding-interactive-learning.html#:~:text=What%20is%20it%3F,information%2C%20figures%2C%20or%20equations."
+                  class="footer-link">Interactive Learning</a>
+              </li>
+    
+    
+    
+            </ul>
+    
+            <ul class="footer-list">
+    
+              <li>
+                <p class="footer-list-title">Other links</p>
+              </li>
+    
+              <li>
+                <a href="#" class="footer-link">FAQ</a>
+              </li>
+    
+              <li>
+                <a href="#" class="footer-link">Privacy Policy</a>
+              </li>
+    
+              <li>
+                <a href="#" class="footer-link">Support</a>
+              </li>
+    
+            </ul>
+    
+            <ul class="footer-list">
+    
+              <li>
+                <p class="footer-list-title">Contact Us</p>
+              </li>
+    
+              <li class="footer-item">
+    
+                <div class="footer-item-icon">
+                  <ion-icon name="call"></ion-icon>
+                </div>
+    
+                <div>
+                  <a href="tel:+9621509970" class="footer-item-link">+962-150-9970</a>
+                  <a href="tel:+9622581637" class="footer-item-link">+962-150-9970</a>
+                </div>
+    
+              </li>
+    
+              <li class="footer-item">
+    
+                <div class="footer-item-icon">
+                  <ion-icon name="mail"></ion-icon>
+                </div>
+    
+                <div>
+                  <a href="mailto:halabanihamad10@gmail.com" class="footer-item-link">halabanihamad10@gmail.com</a>
+                  <a href="mailto:>sajedakhasawneh5@gmail.com" class="footer-item-link">sajedakhasawneh5@gmail.com</a>
+                </div>
+    
+              </li>
+    
+              <li class="footer-item">
+    
+                <div class="footer-item-icon">
+                  <ion-icon name="location"></ion-icon>
+                </div>
+    
+                <address class="footer-item-link">
+                  Orange Coding Acadimy, Irbid, Jordan
+                </address>
+    
+              </li>
+    
+            </ul>
+    
+          </div>
+          <div class="footer-bottom">
+            <p class="copyright">
+              &copy; 2025 <a href="https://saimcode.vercel.app" class="copyright-link">Saimcode</a>. All Right Reserved
+            </p>
+          </div>
+        </div>
+    
+    
+      </footer>
+
+
+    <script src="Contact.js"></script>
+</body>
+</html>

@@ -1,0 +1,82 @@
+[
+    {
+      "question": "If all birds can fly, and all penguins are birds, can all penguins fly?",
+      "option1": "Yes",
+      "option2": "No",
+      "option3": "Maybe",
+      "option4": "Insufficient Information",
+      "answer": "No"
+    },
+    {
+      "question": "Complete the analogy: Hot is to Cold as Wet is to:",
+      "option1": "Dry",
+      "option2": "Warm",
+      "option3": "Soft",
+      "option4": "Hard",
+      "answer": "Dry"
+    },
+    {
+      "question": "If it takes 5 workers 5 hours to build 5 walls, how long would it take 10 workers to build 10 walls?",
+      "option1": "5 hours",
+      "option2": "10 hours",
+      "option3": "20 hours",
+      "option4": "25 hours",
+      "answer": "5 hours" 
+    },
+    {
+      "question": "Find the odd one out: Apple, Banana, Carrot, Orange",
+      "option1": "Apple",
+      "option2": "Banana",
+      "option3": "Carrot",
+      "option4": "Orange",
+      "answer": "Carrot" 
+    },
+    {
+      "question": "If today is Wednesday, what day of the week will it be 15 days from now?",
+      "option1": "Monday",
+      "option2": "Tuesday",
+      "option3": "Wednesday",
+      "option4": "Thursday",
+      "answer": "Monday"
+    },
+    {
+      "question": "Complete the series: 1, 4, 9, 16, ...",
+      "option1": "18",
+      "option2": "21",
+      "option3": "25",
+      "option4": "27",
+      "answer": "25" 
+    },
+    {
+      "question": "If all cats are mammals, and all mammals are warm-blooded, then all cats are:",
+      "option1": "Cold-blooded",
+      "option2": "Reptiles", 
+      "option3": "Warm-blooded",
+      "option4": "Fish",
+      "answer": "Warm-blooded" 
+    },
+    {
+      "question": "A clock shows 3:15. If the minute hand points to the South, in which direction does the hour hand point?",
+      "option1": "North",
+      "option2": "South",
+      "option3": "West",
+      "option4": "East",
+      "answer": "West" 
+    },
+    {
+      "question": "If 8 pencils cost $4, how much would 20 pencils cost?",
+      "option1": "$8",
+      "option2": "$10",
+      "option3": "$12",
+      "option4": "$15",
+      "answer": "$10" 
+    },
+    {
+      "question": "Find the next number in the sequence: 1, 3, 7, 15, 31, ...",
+      "option1": "47",
+      "option2": "53",
+      "option3": "63",
+      "option4": "61",
+      "answer": "63" 
+    }
+  ]

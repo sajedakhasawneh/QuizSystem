@@ -1,0 +1,122 @@
+[
+  {
+    "question": "Which tag is used to define a heading?",
+    "option1": "head",
+    "option2": "h1",
+    "option3": "heading",
+    "option4": "h",
+    "currect": "h1"
+  },
+  {
+    "question": "What attribute specifies the URL of the page to be loaded when a user clicks on a link?",
+    "option1": "href",
+    "option2": "src",
+    "option3": "target",
+    "option4": "link",
+    "currect": "href"
+  },
+  {
+    "question": "Which tag is used to create an unordered list?",
+    "option1": "ol",
+    "option2": "ul",
+    "option3": "li",
+    "option4": "list",
+    "currect": "ul"
+  },
+  {
+    "question": "What CSS property controls the text color?",
+    "option1": "font-color",
+    "option2": "color",
+    "option3": "text-color",
+    "option4": "text-color",
+    "currect": "color"
+  },
+  {
+    "question": "How do you select all elements with the class name 'myClass'?",
+    "option1": ".myClass",
+    "option2": " #myClass",
+    "option3": "*myClass",
+    "option4": "class='myClass'",
+    "currect": ".myClass"
+  },
+  {
+    "question": "Which CSS property is used to add space around an element?",
+    "option1": "margin ",
+    "option2": "padding",
+    "option3": "border",
+    "option4": "spacing",
+    "currect": "margin"
+  },
+  {
+    "question": "What is the correct JavaScript syntax to change the content of the HTML element with the ID 'myDiv'?",
+    "option1": "document.getElementById('myDiv').innerHTML = 'New Text';",
+    "option2": "#myDiv.innerHTML = 'New Text';",
+    "option3": "document.getElement('myDiv').innerHTML = 'New Text';",
+    "option4": "myDiv.innerHTML = 'New Text';",
+    "currect": "document.getElementById('myDiv').innerHTML = 'New Text';"
+  },
+  {
+    "question": "Which event occurs when the user clicks on an HTML element?",
+    "option1": "mouseclick",
+    "option2": "onclick",
+    "option3": "mouse-click",
+    "option4": "click",
+    "currect": "onclick"
+  },
+  {
+    "question": "How do you write a JavaScript condition that tests whether 'x' is NOT equal to 'y'?",
+    "option1": "x != y",
+    "option2": "x <> y",
+    "option3": "x !== y",
+    "option4": "x not= y",
+    "currect": "x != y"
+  },
+  {
+    "question": "What does API stand for?",
+    "option1": "Application Programming Interface",
+    "option2": "Application Program Integration",
+    "option3": "Application Protocol Interface",
+    "option4": " Application Programming Internet",
+    "currect": "Application Programming Interface"
+  },
+  {
+    "question": "Which HTTP method is used to retrieve data from a server?",
+    "option1": "GET ",
+    "option2": "POST",
+    "option3": "PUT",
+    "option4": "DELETE",
+    "currect": "GET"
+  },
+  {
+    "question": "What is a common data format used for exchanging data with APIs?",
+    "option1": "XML",
+    "option2": "JSON ",
+    "option3": "HTML",
+    "option4": "CSS",
+    "currect": "JSON"
+  },
+  {
+    "question": "What is the purpose of a web browser?",
+    "option1": "o create websites",
+    "option2": "To write code",
+    "option3": "To display web pages",
+    "option4": "To store files",
+    "currect": "To display web pages"
+  },
+  {
+    "question": "What is the difference between HTML and CSS?",
+    "option1": "HTML defines the content of a webpage, while CSS defines the style and layout.",
+    "option2": "CSS defines the content of a webpage, while HTML defines the style and layout.",
+    "option3": "HTML and CSS are the same thing.",
+    "option4": "HTML is used for scripting, while CSS is used for styling.",
+    "currect": "HTML defines the content of a webpage, while CSS defines the style and layout."
+  },
+  {
+    "question": "What is the role of JavaScript in web development?",
+    "option1": " To create static web pages",
+    "option2": "To add interactivity and dynamic behavior to web pages",
+    "option3": "To design the layout of web pages",
+    "option4": "To store data on the server",
+    "currect": "To add interactivity and dynamic behavior to web pages"
+  }
+]

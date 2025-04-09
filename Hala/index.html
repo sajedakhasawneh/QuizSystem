@@ -1,0 +1,839 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TechNode Website</title>
+
+  <!-- 
+    - favicon
+  -->
+  <!-- <link rel="shortcut icon" href="./assets/images/favicon.png" type="image/svg+xml"> -->
+
+  <!-- 
+    -  css
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
+  <!-- 
+    - google font
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Source+Sans+Pro:wght@600;700&display=swap"
+    rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600&family=Source+Sans+Pro:wght@600;700&display=swap"
+    rel="stylesheet">
+
+
+  <style>
+
+  </style>
+</head>
+
+<body id="top">
+
+  <!-- #HEADER -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <div class="overlay" data-overlay></div>
+
+      <a href="#" class="logo">
+        Tech <i>Node</i>
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+          <a href="#" class="logo logo-dark">
+            Tech <i>Node</i>
+          </a>
+          <button class="nav-close-btn" aria-label="Close Menu" data-nav-close-btn>
+            <ion-icon name="close-outline"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="/Hala/index.html" class="navbar-link" data-navbar-link>Home</a>
+          </li>
+
+          <li class="navbar-item">
+            <a id="quizzes-button" href="/Firas/mainCards/firasCards.html" class="navbar-link" data-navbar-link>Quizzes</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#services" class="navbar-link" data-navbar-link>Services</a>
+          </li>
+
+
+          <li class="navbar-item">
+            <a href="../Hazem/AboutUs.html" class="navbar-link" data-navbar-link>About Us</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="../Sajeda/Contact.html" class="navbar-link" data-navbar-link>Contact Us</a>
+          </li>
+          <li class="search-box">
+            <button class="btn-search"><i class="bx bx-search"></i></button>
+            <input type="text" class="input-search" placeholder="Search...">
+          </li>
+          <li id="login-button">
+            <!-- Login Button -->
+            <button class="button button-item" ><a href="../Sajeda/Log.html">
+              <span class="button-bg">
+                <span class="button-bg-layers">
+                  <span class="button-bg-layer button-bg-layer-1 -purple"></span>
+                  <span class="button-bg-layer button-bg-layer-2 -turquoise"></span>
+                  <span class="button-bg-layer button-bg-layer-3 -yellow"></span>
+                </span>
+              </span></a>
+              <span class="button-inner" id="log_in">Login </span>
+            </button>
+
+           
+          </li>
+          <li class="nav_none" id="logout-button">
+            <!-- Login Button -->
+             
+            <button onclick="logoutBTN()" class="button button-item" >
+              <span class="button-bg">
+                <span class="button-bg-layers">
+                  <span class="button-bg-layer button-bg-layer-1 -purple"></span>
+                  <span class="button-bg-layer button-bg-layer-2 -turquoise"></span>
+                  <span class="button-bg-layer button-bg-layer-3 -yellow"></span>
+                </span>
+              </span></a>
+              <span class="button-inner" id="">Log Out </span>
+            </button>
+
+           
+          </li>
+          <li style=" margin-left: 10px; "id="profile-icon" class="nav_none">
+            <a href="../Bilal/Profile.html" style="display: inline-block; width: 40px; height: 40px; overflow: hidden; border-radius: 50%;">
+                <img id="profile-image" src="../Hala/assets/images/user (1).png " style="width: 100%; height: 100%; object-fit: cover;">
+            </a>
+        </li>
+          
+        </ul>
+
+      </nav>
+
+      <!-- <a href="#" class="btn">
+        <i class='bx bx-search' aria-hidden="true"></i>
+
+        <span>Search</span>
+      </a> -->
+
+
+
+      <button class="nav-open-btn" aria-label="Open Menu" data-nav-open-btn>
+        <ion-icon name="menu-outline"></ion-icon>
+      </button>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="hero" id="home">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <p class="hero-subtitle">TechNode: Technology as it should be.</p>
+
+            <h2 class="h2 hero-title">Learn smarter<i>.</i><br>
+              Challenge yourself<i>.</i><br>
+              Achieve greatness<i>.</i>
+            </h2>
+
+            <!-- <p class="hero-text">
+              Lorem ipsum dolor sit amet consectetur. <a href=""> Click Here</a>
+            </p> -->
+
+            <a href="/Firas/mainCards/firasCards.html" ></a><button id="apply_quizzes" class="btn">Apply Our Quizzes <i class='bx bxs-right-arrow'></i></button></a>
+          </div>
+
+          <figure class="hero-banner">
+            <img src="./assets/images/hero-img.svg" loading="lazy" alt="hero-banner" class="w-100"
+              style="margin-top: 30px; transform: scaleX(-1);">
+          </figure>
+
+        </div>
+
+
+      </section>
+
+<script src="/Firas/mainCards/firasCardsJs.js">
+
+</script>
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about" id="about">
+        <div class="container">
+
+          <figure class="about-banner">
+            <img src="./assets/images/teamwork.svg" loading="lazy" alt="about banner"
+              style="padding-right: 10px; max-width: 530px; margin: 0 auto;" class="w-100">
+          </figure>
+
+          <div class="about-content">
+
+            <h2 class="h2 section-title underline"> Trusted Learning Partner<i class="dot">.</i>
+            </h2>
+
+            <p class="about-text">
+              Your trusted partner for learning and growth. Explore expertly crafted courses and engaging quizzes
+              designed to challenge your mind, enhance your skills, and unlock your potential.
+            </p>
+
+            <div class="about-buttons">
+              <a  href="#services" class="btn ">Our Services</a>
+              <a href="../Sajeda/Contact.html" class="btn invert-btn">Contact Us</a>
+            </div>
+
+            <ul class="stats-list">
+
+              <li class="stats-card">
+                <p class="h3 stats-title">500+</p>
+
+                <p class="stats-text">Courses Completed</p>
+              </li>
+
+              <li class="stats-card">
+                <p class="h3 stats-title">300+</p>
+
+                <p class="stats-text">Quizzes Taken</p>
+              </li>
+
+              <li class="stats-card">
+                <p class="h3 stats-title">600</p>
+
+                <p class="stats-text">Learners Empowered</p>
+              </li>
+
+            </ul>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+      <!-- 
+        - #SERVICE
+      -->
+
+      <section class="section service" id="services">
+        <div class="container">
+
+          <h2 class="h2 section-title underline">Our Services<i class="dot">.</i></h2>
+
+          <ul class="service-list">
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <i class='bx bx-pen'></i>
+                </div>
+
+                <h3 class="h3 title">Skill Assessment<i class="dot">.</i></h3>
+
+                <p class="text">
+                  Offering personalized quizzes to assess learners' skills in many different fields. These assessments
+                  provide instant feedback and help identify strengths and areas for improvement, guiding users toward
+                  the best courses for their development. </p>
+
+                <a target="_blank" href="https://immi.homeaffairs.gov.au/visas/working-in-australia/skills-assessment">
+                  <button class="card-btn" aria-label="Show More">
+                    <ion-icon name="chevron-forward-outline"></ion-icon>
+                  </button></a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <i class='bx bx-code-curly'></i>
+                </div>
+
+                <h3 class="h3 title">Certification Programs<i class="dot">.</i></h3>
+
+                <p class="text">
+                  Comprehensive certification courses across diverse subjects, enabling learners to gain professional
+                  qualifications. Upon completion, users receive a certificate, enhancing their credentials and boosting
+                  their career opportunities in their respective fields. </p>
+                <a target="_blank"
+                  href="https://artsadministration.org/programs/?program-filter-degrees=&program-filter-state=&deg=cert&opt=all&cnt=all&gad_source=1&gclid=CjwKCAiA7Y28BhAnEiwAAdOJUFiRHTH0xXtWm1Uwlbs7R_qXsFijUyPd6JHR3qU6PEJW1yndfpVaKxoCeaoQAvD_BwE">
+                  <button class="card-btn" aria-label="Show More">
+                    <ion-icon name="chevron-forward-outline"></ion-icon>
+                  </button></a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <div class="card-icon">
+                  <i class='bx bx-desktop'></i>
+                </div>
+
+                <h3 class="h3 title">Interactive Learning<i class="dot">.</i></h3>
+
+                <p class="text">
+                  Engaging, hands-on courses with real-time quizzes, exercises, and discussion forums. This service
+                  promotes active participation, ensuring learners absorb concepts effectively while interacting with
+                  peers and instructors for a collaborative learning experience. </p>
+                <a target="_blank"
+                  href="https://www.scholastic.com/parents/family-life/social-emotional-learning/technology-and-kids/understanding-interactive-learning.html#:~:text=What%20is%20it%3F,information%2C%20figures%2C%20or%20equations.">
+                  <button class="card-btn" aria-label="Show More">
+                    <ion-icon name="chevron-forward-outline"></ion-icon>
+                  </button></a>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+  
+
+      <section class="section values" id="values">
+        <div class="container">
+
+          <h2 class="h2 section-title underline">Our Values<i class="dot">.</i></h2>
+
+          <ul class="values-list">
+
+            <li class="values-margin">
+              <div class="values-card">
+
+                <div class="icon">
+                  <ion-icon name="heart-outline"></ion-icon>
+                </div>
+
+                <div class="content">
+                  <h3 class="h3 title"><u>Be</u> Genuine</h3>
+
+                  <p class="text">
+                    Be sincere and honest to who you really are.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="values-card">
+
+                <div class="icon">
+                  <ion-icon name="extension-puzzle-outline"></ion-icon>
+                </div>
+
+                <div class="content">
+                  <h3 class="h3 title"><u>Be</u> Agile</h3>
+
+                  <p class="text">
+                    Have a creative, adaptable and user-focused mindset.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="values-margin">
+              <div class="values-card">
+
+                <div class="icon">
+                  <ion-icon name="analytics-outline"></ion-icon>
+                </div>
+
+                <div class="content">
+                  <h3 class="h3 title"><u>Be</u> Inclusive</h3>
+
+                  <p class="text">
+                    Be comprehensive and take everything into account.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <figure class="values-banner">
+            <img src="./assets/images/values.svg" width="500" height="auto" loading="lazy" alt="values Banner"
+              class="w-100" style="width: 100%; max-width: 530px; padding: 10px;">
+          </figure>
+
+          <ul class="values-list">
+
+            <li>
+              <div class="values-card">
+
+                <div class="icon">
+                  <ion-icon name="flame-outline"></ion-icon>
+                </div>
+
+                <div class="content">
+                  <h3 class="h3 title"><u>Be</u> Daring</h3>
+
+                  <p class="text">
+                    Be courageous and have the willingness to take risks.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="values-margin">
+              <div class="values-card">
+
+                <div class="icon">
+                  <ion-icon name="add-outline"></ion-icon>
+                </div>
+
+                <div class="content">
+                  <h3 class="h3 title"><u>Add</u> Value</h3>
+
+                  <p class="text">
+                    Add value to the business with your creativity.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="values-card">
+
+                <div class="icon">
+                  <ion-icon name="checkmark-outline"></ion-icon>
+                </div>
+
+                <div class="content">
+                  <h3 class="h3 title"><u>Do the</u> Right Thing</h3>
+
+                  <p class="text">
+                    Do not be shy to ask and do the right thing.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #BLOG
+      -->
+
+      <section class="section blog" id="blog">
+        <div class="container">
+
+          <h2 class="h2 section-title underline">What Our Customers Say<i class="dot">.</i></h2>
+
+          <ul class="blog-list">
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="banner">
+                  <a href="#">
+                    <img src="https://img.freepik.com/premium-photo/muslim-woman-working-computer_274689-12121.jpg"
+                      width="750" height="350" loading="lazy"
+                      alt="Fusce sem ligula, imperdiet sed nisi sit amet, euismod posuere." class="img-cover">
+                  </a>
+                </figure>
+
+                <div class="content">
+
+                  <h3 class="h3 title">
+                    <a>
+                      Sarah Johnson, Web Developer
+                    </a>
+                  </h3>
+
+                  <p class="text">
+                    Technode's Full Stack course helped me sharpen my skills and gave me the confidence to pursue a
+                    career in web development.
+                  </p>
+
+                  <div class="meta">
+
+                    <div class="publish-date">
+                      <ion-icon name="time-outline"></ion-icon>
+
+                      <time datetime="2022-03-07">9 June, 2024</time>
+                    </div>
+
+                    <button class="star-rating" aria-label="Star rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star-half"></ion-icon>
+                      <data value="4.5">4.5</data>
+                    </button>
+
+
+
+
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="banner">
+                  <a href="#">
+                    <img
+                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQca6sAq-Xpg5Dw2oeALjVYQIfLP7l7JLpqbw&s"
+                      width="750" height="350" loading="lazy"
+                      alt="Donec feugiat mollis nisi in dignissim. Morbi sollicitudin quis." class="img-cover">
+                  </a>
+                </figure>
+
+                <div class="content">
+
+                  <h3 class="h3 title">
+                    <a>
+                      Ahmed Al-Mansoori, Software Engineer
+                    </a>
+                  </h3>
+
+                  <p class="text">
+                    The practical approach in Technode's courses made learning enjoyable and effective. I feel more
+                    confident in applying my skills in the real world.
+                  </p>
+
+                  <div class="meta">
+
+                    <div class="publish-date">
+                      <ion-icon name="time-outline"></ion-icon>
+
+                      <time datetime="2022-03-07">1 July, 2022</time>
+                    </div>
+
+                    <button class="star-rating" aria-label="Star rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star-half"></ion-icon>
+                      <data value="4.5">4.5</data>
+                    </button>
+
+
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+      <!-- 
+        - #PARTNERS
+      -->
+      <section class="section partners" id="partners">
+        <div class="container">
+
+          <h2 class="h2 section-title underline">Our Partners<i class="dot">.</i></h2>
+
+          <div class="partners-container">
+            <div class="partners-item"><a target="_blank"
+                href="https://www.udemy.com/?srsltid=AfmBOoqmvC7ZyrDTvAiET8TpsyvoW7eZR9SQ26A6aUx1gk9eCe-O92fS">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWEXhdxiPLXdeMYD7Ddd5eAO1TGl195GaB4w&s"
+                  loading="lazy" alt="client" class="w-100 gray-scale"></a>
+            </div>
+            <div class="partners-item"><a target="_blank" href="https://www.coursera.org/">
+                <img
+                  src="data:image/jpeg;base64,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8M7eOa8orem1Xm47Sqy4hkefk5zvwU2wXBIaSPs4W2B3uObnHm48VskSslV5ZycUz4RApNWMRJP0qTMk+yziSeXVTLCqIQQRwhxcI2htza5txNllolXVeTs45nwiKaRaCwVT3Sh74pXbyO805WzafwIUeGq+S/6Wy3Psjf02/wAVZiLqy2lpMjWGG9tEb0a0Np6M7YJkm+N1sr79loyb956rd4hQRzxmOVgew7wfmDwPVZKKLpt7ZNSktIr2v1YNLiYaktb8L2bVugcCD63XXR6sMwZqq7eLY2WP87ifkrGRT+tfyV/Qx/BhYZhUVPF2ULA1n3k8yeJUMbquiAt9Kl/lZ+SsBFFZKXhk6xzXlGPh9KIomRAkhjQ253mwsunF8JhqozFMzabvHAtPNp4FZyKO3vZLS1oreq1Xna+rqu7yey7h5tcAfQLY0WriBkMjHyufK8W7TZADMwe4w3sct5JU3RWPNb9lawwvRBqPVvHHIyQVMhLHNdbZZnskG27opyiKFW68k5iZ8BERRJBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQH//Z"
+                  loading="lazy" alt="client" class="w-100 gray-scale"></a>
+            </div>
+            <div class="partners-item"><a target="_blank" href="https://www.edx.org/">
+                <img
+                  src="data:image/png;base64,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"
+                  loading="lazy" alt="client" class="w-100 gray-scale"></a>
+            </div>
+            <div class="partners-item"><a target="_blank" href="https://www.skillshare.com/en/">
+                <img
+                  src="data:image/png;base64,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"
+                  loading="lazy" alt="client" class="w-100 gray-scale"></a>
+            </div>
+            <div class="partners-item"><a target="_blank" href="https://www.linkedin.com/learning/">
+                <img
+                  src="data:image/png;base64,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"
+                  loading="lazy" alt="client" class="w-100 gray-scale"></a>
+            </div>
+            <div class="partners-item"><a target="_blank" href="https://www.pluralsight.com/">
+                <img
+                  src="data:image/png;base64,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"
+                  loading="lazy" alt="client" class="w-100 gray-scale"></a>
+            </div>
+          </div>
+      </section>
+
+
+
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+
+    <div class="footer-top section">
+      <div class="container">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo">
+            Tech <i>Node</i>
+          </a>
+          <p class="text">
+            Your trusted partner for learning and growth. Explore expertly crafted courses and engaging quizzes designed
+            to challenge your mind, enhance your skills, and unlock your potential. Start your journey today with
+            TechNode and achieve greatness.
+          <ul class="social-list">
+
+            <li>
+              <a href="https://web.facebook.com/?_rdc=1&_rdr" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://www.instagram.com/direct/inbox/" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://x.com/?lang=en&mx=2" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Our links</p>
+          </li>
+
+          <li>
+            <a href="#home" class="footer-link">Home</a>
+          </li>
+
+          <li>
+            <a href="../Hazem/AboutUs.html" class="footer-link">About Us</a>
+          </li>
+
+          <li>
+            <a href="#services" class="footer-link">Services</a>
+          </li>
+
+          <li>
+            <a href="../Sajeda/Contact.html" class="footer-link">Contact US</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Our Services</p>
+          </li>
+
+          <li>
+            <a target="_blank" href="https://immi.homeaffairs.gov.au/visas/working-in-australia/skills-assessment"
+              class="footer-link">Skill Assessment</a>
+          </li>
+
+          <li>
+            <a target="_blank"
+              href="https://artsadministration.org/programs/?program-filter-degrees=&program-filter-state=&deg=cert&opt=all&cnt=all&gad_source=1&gclid=CjwKCAiA7Y28BhAnEiwAAdOJUFiRHTH0xXtWm1Uwlbs7R_qXsFijUyPd6JHR3qU6PEJW1yndfpVaKxoCeaoQAvD_BwE"
+              class="footer-link">Certification Programs</a>
+          </li>
+
+          <li>
+            <a target="_blank"
+              href="https://www.scholastic.com/parents/family-life/social-emotional-learning/technology-and-kids/understanding-interactive-learning.html#:~:text=What%20is%20it%3F,information%2C%20figures%2C%20or%20equations."
+              class="footer-link">Interactive Learning</a>
+          </li>
+
+
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Other links</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">FAQ</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Privacy Policy</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Support</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Contact Us</p>
+          </li>
+
+          <li class="footer-item">
+
+            <div class="footer-item-icon">
+              <ion-icon name="call"></ion-icon>
+            </div>
+
+            <div>
+              <a href="tel:+9621509970" class="footer-item-link">+962-150-9970</a>
+              <a href="tel:+9622581637" class="footer-item-link">+962-150-9970</a>
+            </div>
+
+          </li>
+
+          <li class="footer-item">
+
+            <div class="footer-item-icon">
+              <ion-icon name="mail"></ion-icon>
+            </div>
+
+            <div>
+              <a href="mailto:halabanihamad10@gmail.com" class="footer-item-link">halabanihamad10@gmail.com</a>
+              <a href="mailto:>sajedakhasawneh5@gmail.com" class="footer-item-link">sajedakhasawneh5@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="footer-item">
+
+            <div class="footer-item-icon">
+              <ion-icon name="location"></ion-icon>
+            </div>
+
+            <address class="footer-item-link">
+              Orange Coding Acadimy, Irbid, Jordan
+            </address>
+
+          </li>
+
+        </ul>
+
+      </div>
+      <div class="footer-bottom">
+        <p class="copyright">
+          &copy; 2025 <a href="https://saimcode.vercel.app" class="copyright-link">Saimcode</a>. All Right Reserved
+        </p>
+      </div>
+    </div>
+
+
+  </footer>
+  
+
+
+
+
+
+  <!-- 
+    - #GO TO TOP
+  -->
+
+  <a href="#top" class="go-top active" aria-label="Go To Top" data-go-top>
+    <ion-icon name="arrow-up-outline"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>

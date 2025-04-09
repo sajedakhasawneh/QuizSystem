@@ -1,0 +1,10 @@
+{   
+    "question": "Which element is used to provide alternative text for images for screen reader users?",
+    "options": [
+      "<alt>",
+      "<figcaption>",
+      "<description>",
+      "<img alt='description'>"
+    ],
+    "answer": "<img alt='description'>"
+}

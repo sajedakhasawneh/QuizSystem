@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <div id="quizheading">
+            <p id="texttype">Technical Quiz</p>
+            <p id="countdown">02:00</p>
+        </div>
+
+
+        <div id="testarea">
+            <h2 id="question"></h2>
+            <div id="options">
+                <p class="answers"></p>
+                <p class="answers"></p>
+                <p class="answers"></p>
+                <p class="answers"></p>
+            </div>
+
+            <p id="trueanswer" hidden></p>
+        </div>
+
+        <div id="submitbtn">
+            <input id="btn" value="submit" type="submit" onclick="displayQuiz()">
+        </div>
+
+
+    </div>
+    
+
+    <script src="main.js"></script>
+</body>
+</html>

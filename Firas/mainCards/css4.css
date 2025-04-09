@@ -1,0 +1,284 @@
+/* From Uiverse.io by eslam-hany */
+.card0 {
+  margin-top: 5.5vw;
+  position: relative;
+  width: 80vw;
+  height: 30vw;
+  background: #e07c39b9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 15px;
+  cursor: pointer;
+  margin-left: 10vw;
+}
+
+/* .card::before, */
+.card0::after {
+  position: absolute;
+  content: "";
+  width: 20%;
+  height: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: bold;
+  background-color: orange;
+  transition: all 0.5s;
+}
+
+.card0::before {
+  top: 0;
+  margin-top: -2vw;
+  margin-left: 5vw;
+  font-size: 50px;
+  width: 80vw;
+  /* right: 0; */
+  border-radius: 0 15px 0 100%;
+
+  content: "Welcome to the IQ, English, and Technical Quiz! ";
+}
+
+.card0::after {
+  bottom: 0;
+  left: 0;
+  border-radius: 0 100% 0 15px;
+}
+
+.card0:hover::before,
+.card0:hover:after {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  transition: all 0.5s;
+}
+
+.card0:hover:after {
+  /* margin-left:1vw; */
+  content: "10 questions to test logical reasoning ,10 questions on grammar and vocabulary ,15 questions on programming and technical knowledge.";
+  font-size: 2vw;
+  text-align: center;
+  
+}
+
+.img1 {
+  width: 10vw;
+  height: 18vw;
+  margin-left: 45vw;
+}
+.card1 {
+  width: 22vw;
+  height: 25vw;
+  border: 0.5px solid black;
+  border-radius: 2vw;
+  transition: all 0.5s;
+}
+.card1:hover {
+  background-color: #e07c39b9;
+  transform: scale(1.1);
+}
+.card-img-top {
+  width: 18vw;
+  height: 12vw;
+  padding-left: 3vw;
+  margin-top: 1vw;
+}
+
+.card-title {
+  font-size: 2vw;
+  margin-top: -6vw;
+  padding-top: 5vw;
+  margin-left: 6vw;
+  margin-left: 8vw;
+}
+.btn {
+  width: 8vw;
+  height: 5vw;
+  font-size: 1vw;
+  margin-top: 1vw;
+  margin-left: 2.5vw;
+  border: 0.5px solid black !important;
+  border-radius: 6vw;
+  background-color: #e07b39;
+  color: white;
+  cursor: pointer;
+}
+.sbtn {
+  width: 8vw;
+  height: 5vw;
+  font-size: 1vw;
+  /* margin-top: vw;
+    padding-top:vw; */
+  color: white;
+  cursor: pointer;
+  background-color: orange;
+  border: 0.01px solid black;
+  border-radius: 6vw;
+  margin-left: 12vw;
+  margin-top: -5vw;
+}
+
+/* ******second card******** */
+.card2 {
+  width: 22vw;
+  height: 25vw;
+  border: 0.5px solid black;
+  border-radius: 2vw;
+  transition: all 0.5s;
+}
+.card2:hover {
+  background-color: #e07c39b9;
+  transform: scale(1.1);
+}
+
+.card2-img-top {
+  width: 18vw;
+  height: 12vw;
+  padding-left: 3vw;
+  margin-top: 1vw;
+}
+.card2-title {
+  font-size: 2vw;
+  margin-top: -6vw;
+  padding-top: 5vw;
+  padding-left: 0vw;
+  margin-left: 5vw;
+}
+.btn2 {
+  width: 8vw;
+  height: 5vw;
+  font-size: 1vw;
+  margin-top: 1vw;
+  margin-left: 2.5vw;
+  border: 0.01px solid black;
+  border-radius: 0 2vw 0 2vw;
+  background-color: rgb(240, 181, 71);
+  color: white;
+  cursor: pointer;
+}
+.tbtn {
+  width: 8vw;
+  height: 5vw;
+  font-size: 1vw;
+  /* margin-top: vw;
+    padding-top:vw; */
+  color: white;
+  cursor: pointer;
+  background-color: orange;
+  border: 0.01px solid black;
+  border-radius: 6vw;
+  margin-left: 12vw;
+  margin-top: -5vw;
+}
+/* *********third card******* */
+.card3 {
+  width: 22vw;
+  height: 25vw;
+  border: 0.5px solid black;
+  border-radius: 2vw;
+  transition: all 0.5s;
+}
+.card3:hover {
+  background-color: #e07c39b9;
+  transform: scale(1.1);
+}
+.card3-img-top {
+  width: 18vw;
+  height: 12vw;
+  padding-left: 3vw;
+  margin-top: 1vw;
+}
+.card3-title {
+  font-size: 2vw;
+  margin-top: -6vw;
+  padding-top: 5vw;
+  /* margin-left: vw; */
+  /* margin-left: 4vw; */
+  margin-left: 5vw;
+}
+.btn3 {
+  width: 8vw;
+  height: 5vw;
+  font-size: 1vw;
+  margin-top: 1vw;
+  margin-left: 2.5vw;
+  border: 0.5px solid black;
+  border-radius: 0px 2vw 0px 2vw;
+  background-color: rgb(240, 181, 71);
+  color: white;
+  cursor: pointer;
+}
+.fbtn {
+  width: 8vw;
+  height: 5vw;
+  font-size: 1vw;
+  /* margin-top: vw;
+    padding-top:vw; */
+  color: white;
+  cursor: pointer;
+  background-color: orange;
+  border: 0.01px solid black;
+  border-radius: 6vw;
+  margin-left: 12vw;
+  margin-top: -5vw;
+}
+/* *****flex*** */
+.fflex {
+  margin-top: 3vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  color: #555;
+}
+
+.close-button:hover {
+  color: #333;
+}
+
+.reviewDiv {
+  display: none;
+  flex-direction: column;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 2.95);
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  width: 45vw;
+  text-align: left;
+  z-index: 1001;
+  overflow-y: scroll;
+  height: 550px;
+}
+
+.button-inner,
+.button-inner-hover,
+.button-inner-static {
+  pointer-events: none;
+  display: block;
+}
+
+.button-item {
+  background-color: transparent;
+  color: #fff;
+}
+
+.navbar-list {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+}

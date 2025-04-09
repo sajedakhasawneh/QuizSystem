@@ -1,0 +1,25 @@
+#container{
+    margin: 165px;
+    padding-left: 450px;
+    background-color: #f8f8f8;
+    width: 30%;
+}
+
+#quizheading{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 25%;
+    background-color: #fff;
+
+}
+
+#options{
+    background-color: #fff;
+    padding: 20px;
+}
+
+#btn{
+    width: 100%;
+    padding: 10px;
+}

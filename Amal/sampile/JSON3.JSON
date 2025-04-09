@@ -1,0 +1,53 @@
+[
+    {
+      "question": "What does HTML stand for?",
+      "choices": ["Hyper Text Markup Language", "High Text Markup Language", "Hyperlinks and Text Markup Language", "None of the above"],
+      "correct_answer": "Hyper Text Markup Language"
+    },
+    {
+      "question": "Which HTML element is used to define an internal style sheet?",
+      "choices": ["<style>", "<css>", "<script>", "<link>"],
+      "correct_answer": "<style>"
+    },
+    {
+      "question": "Which of the following is the correct syntax to link an external JavaScript file?",
+      "choices": ["<script src='file.js'></script>", "<link href='file.js'>", "<javascript src='file.js'></javascript>", "<script href='file.js'></script>"],
+      "correct_answer": "<script src='file.js'></script>"
+    },
+    {
+      "question": "Which property is used to change the background color of an element in CSS?",
+      "choices": ["color", "background-color", "bg-color", "fill"],
+      "correct_answer": "background-color"
+    },
+    {
+      "question": "What does CSS stand for?",
+      "choices": ["Cascading Style Sheets", "Creative Style Sheets", "Computer Style Sheets", "Colorful Style Sheets"],
+      "correct_answer": "Cascading Style Sheets"
+    },
+    {
+      "question": "Which CSS property is used to control the font size?",
+      "choices": ["font-style", "font-size", "text-size", "font-weight"],
+      "correct_answer": "font-size"
+    },
+    {
+      "question": "What is the correct syntax for referring to an external script called 'app.js'?",
+      "choices": ["<script href='app.js'></script>", "<script name='app.js'></script>", "<script src='app.js'></script>", "<script ref='app.js'></script>"],
+      "correct_answer": "<script src='app.js'></script>"
+    },
+    {
+      "question": "Which of the following JavaScript methods can be used to select an element by its ID?",
+      "choices": ["getElementById()", "getElementsById()", "querySelector()", "selectElement()"],
+      "correct_answer": "getElementById()"
+    },
+    {
+      "question": "How can you add a comment in JavaScript?",
+      "choices": ["// This is a comment", "<!-- This is a comment -->", "/* This is a comment */", "/* This is a comment //"],
+      "correct_answer": "// This is a comment"
+    },
+    {
+      "question": "Which HTML element is used to define the header of a webpage?",
+      "choices": ["<header>", "<h1>", "<nav>", "<title>"],
+      "correct_answer": "<header>"
+    }
+  ]
+  

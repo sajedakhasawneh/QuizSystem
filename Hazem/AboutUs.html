@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Agency Website</title>
+
+    <!-- 
+      - favicon
+    -->
+    <link rel="shortcut icon" href="./assets/images/favicon.png" type="image/svg+xml">
+
+    <!-- 
+      -  css
+    -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- 
+      - google font
+    -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Source+Sans+Pro:wght@600;700&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600&family=Source+Sans+Pro:wght@600;700&display=swap"
+        rel="stylesheet">
+
+        <link
+        href="./about.css"
+        rel="stylesheet">
+    <style>
+        .star-rating {
+            display: flex;
+            align-items: center;
+            gap: 3px;
+            /* Adjusts space between the stars */
+        }
+
+        .star-rating ion-icon {
+            font-size: 15px;
+            /* Adjust the size of the stars */
+            color: gold;
+            /* Sets the color of the stars */
+        }
+
+        .star-rating data {
+            font-size: 16px;
+            color: #555;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header class="header" data-header style="background-color: rgb(21, 21, 21);">
+        <div class="container">
+    
+          <div class="overlay" data-overlay></div>
+    
+          <a href="/Hala/index.html" class="logo">
+            Tech <i>Node</i>
+          </a>
+    
+          <nav class="navbar" data-navbar>
+    
+            <div class="navbar-top">
+              <a href="#" class="logo logo-dark">
+                Tech <i>Node</i>
+              </a>
+              <button class="nav-close-btn" aria-label="Close Menu" data-nav-close-btn>
+                <ion-icon name="close-outline"></ion-icon>
+              </button>
+            </div>
+    
+            <ul class="navbar-list">
+    
+              <li class="navbar-item">
+                <a href="../Hala/index.html" class="navbar-link" data-navbar-link>Home</a>
+              </li>
+    
+              <li class="navbar-item">
+                <a href="/Firas/mainCards/firasCards.html" class="navbar-link" data-navbar-link>Quizzes</a>
+              </li>
+    
+              <li class="navbar-item">
+                <a  href="/Hala/index.html#services" class="navbar-link" data-navbar-link>Services</a>
+              </li>
+    
+    
+              <li class="navbar-item">
+                <a href="../Hazem/AboutUs.html" class="navbar-link" data-navbar-link>About Us</a>
+              </li>
+    
+              <li class="navbar-item">
+                <a href="../Sajeda/Contact.html" class="navbar-link" data-navbar-link>Contact Us</a>
+              </li>
+              <li class="search-box">
+                <button class="btn-search"><i class="bx bx-search"></i></button>
+                <input type="text" class="input-search" placeholder="Search...">
+              </li>
+              
+
+              <li id="login-button">
+                <!-- Login Button -->
+                <button class="button button-item" ><a href="../Sajeda/Log.html">
+                  <span class="button-bg">
+                    <span class="button-bg-layers">
+                      <span class="button-bg-layer button-bg-layer-1 -purple"></span>
+                      <span class="button-bg-layer button-bg-layer-2 -turquoise"></span>
+                      <span class="button-bg-layer button-bg-layer-3 -yellow"></span>
+                    </span>
+                  </span></a>
+                  <a style="text-decoration: none;color: white;" href="/Sajeda/Log.html"><span class="button-inner" id="log_in">Login </span></a>
+                </button>
+    
+    
+              </li>
+              <li class="nav_none" id="logout-button">
+                <!-- Login Button -->
+    
+                <button onclick="logoutBTN()" class="button button-item" >
+                  <span class="button-bg">
+                    <span class="button-bg-layers">
+                      <span class="button-bg-layer button-bg-layer-1 -purple"></span>
+                      <span class="button-bg-layer button-bg-layer-2 -turquoise"></span>
+                      <span class="button-bg-layer button-bg-layer-3 -yellow"></span>
+                    </span>
+                  </span></a>
+                  <span class="button-inner" id="">Log Out </span>
+                </button>
+    
+    
+              </li>
+              <li style=" margin-left: 10px; "id="profile-icon" class="nav_none">
+                <a href="../Bilal/Profile.html" style="display: inline-block; width: 40px; height: 40px; overflow: hidden; border-radius: 50%;">
+                    <img id="profile-image" src="../Hala/assets/images/user (1).png " style="width: 100%; height: 100%; object-fit: cover;">
+                </a>
+            </li>
+            
+            </ul>
+    
+          </nav>
+    
+          <!-- <a href="#" class="btn">
+            <i class='bx bx-search' aria-hidden="true"></i>
+    
+            <span>Search</span>
+          </a> -->
+    
+    
+    
+          <button class="nav-open-btn" aria-label="Open Menu" data-nav-open-btn>
+            <ion-icon name="menu-outline"></ion-icon>
+          </button>
+    
+        </div>
+      </header>
+
+
+    <!-- About Us Section -->
+    <section class="section" id="about">
+        <div class="container">
+            <div class="text-left">
+                <h2>About Us</h2>
+                <p>Welcome to TechNode! TechNode is a comprehensive platform designed to challenge your mind, enhance
+                    your skills, and unleash your full potential. We specialize in offering a wide range of IQ, English,
+                    and Technology tests tailored for learners, professionals, and curious minds seeking growth and
+                    self-improvement.</p>
+            </div>
+            <img src="https://i.pinimg.com/736x/61/9c/46/619c46c2e08c84a5383f16ab607c235b.jpg"
+                alt="Who We Are" class="right-image">
+        </div>
+    </section>
+
+    <!-- What We Offer Section -->
+    <section class="section">
+        <div class="container">
+            <img src="https://i.pinimg.com/736x/b2/23/f9/b223f961428f7520c6ad66101c482b2c.jpg" alt="What We Offer"
+                class="left-image">
+            <div class="text-right">
+                <h2>What We Offer</h2>
+                <ul>
+                    <li><strong>IQ Tests:</strong> Sharpen your problem-solving skills and measure your intellectual
+                        abilities with our engaging and dynamic IQ challenges.</li>
+                    <li><strong>English Tests:</strong> Improve your language proficiency with customized assessments
+                        that cater to all levels.</li>
+                    <li><strong>Technology Tests:</strong> Stay ahead in the tech world with tests that evaluate your
+                        knowledge of modern tools, coding, and digital trends.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mission & Vision Section -->
+    <section class="section">
+        <div class="container">
+            <div class="text-left">
+                <h2>Our Mission & Vision</h2>
+                <p><strong>Mission:</strong> To inspire learning and personal development by providing innovative and
+                    interactive assessment tools.</p>
+                <p><strong>Vision:</strong> To become the go-to platform for anyone aiming to unlock their potential and
+                    stay competitive in an evolving world.</p>
+            </div>
+            <img src="https://i.pinimg.com/736x/0f/bc/ab/0fbcab630c95d1c5d9dfd99f316b993c.jpg"
+                alt="Mission & Vision" class="right-image">
+        </div>
+    </section>
+
+    <!-- Quote Section -->
+    <div class="quote">
+        <p>In programming, every line of code shapes the future. Let’s turn ideas into innovation together.</p>
+    </div>
+    <footer class="footer">
+
+        <div class="footer-top section" style="display: flex; flex-direction: column; ">
+            <div class="container">
+
+                <div class="footer-brand">
+
+                    <a href="/Hala/index.html" class="logo">
+                        Tech <i>Node</i>
+                    </a>
+                    <p class="text">
+                        Your trusted partner for learning and growth. Explore expertly crafted courses and engaging
+                        quizzes designed
+                        to challenge your mind, enhance your skills, and unlock your potential. Start your journey today
+                        with
+                        TechNode and achieve greatness.
+                    <ul class="social-list">
+
+                        <li>
+                            <a href="https://web.facebook.com/?_rdc=1&_rdr" class="social-link">
+                                <ion-icon name="logo-facebook"></ion-icon>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="https://www.instagram.com/direct/inbox/" class="social-link">
+                                <ion-icon name="logo-instagram"></ion-icon>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="https://x.com/?lang=en&mx=2" class="social-link">
+                                <ion-icon name="logo-twitter"></ion-icon>
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+                <ul class="footer-list">
+
+                    <li>
+                        <p class="footer-list-title">Our links</p>
+                    </li>
+
+                    <li>
+                        <a href="#home" class="footer-link">Home</a>
+                    </li>
+
+                    <li>
+                        <a href="#About" class="footer-link">About Us</a>
+                    </li>
+
+                    <li>
+                        <a href="#Services" class="footer-link">Services</a>
+                    </li>
+
+                    <li>
+                        <a href="#Contact" class="footer-link">Contact US</a>
+                    </li>
+
+                </ul>
+
+                <ul class="footer-list">
+
+                    <li>
+                        <p class="footer-list-title">Our Services</p>
+                    </li>
+
+                    <li>
+                        <a target="_blank"
+                            href="https://immi.homeaffairs.gov.au/visas/working-in-australia/skills-assessment"
+                            class="footer-link">Skill Assessment</a>
+                    </li>
+
+                    <li>
+                        <a target="_blank"
+                            href="https://artsadministration.org/programs/?program-filter-degrees=&program-filter-state=&deg=cert&opt=all&cnt=all&gad_source=1&gclid=CjwKCAiA7Y28BhAnEiwAAdOJUFiRHTH0xXtWm1Uwlbs7R_qXsFijUyPd6JHR3qU6PEJW1yndfpVaKxoCeaoQAvD_BwE"
+                            class="footer-link">Certification Programs</a>
+                    </li>
+
+                    <li>
+                        <a target="_blank"
+                            href="https://www.scholastic.com/parents/family-life/social-emotional-learning/technology-and-kids/understanding-interactive-learning.html#:~:text=What%20is%20it%3F,information%2C%20figures%2C%20or%20equations."
+                            class="footer-link">Interactive Learning</a>
+                    </li>
+
+
+
+                </ul>
+
+                <ul class="footer-list">
+
+                    <li>
+                        <p class="footer-list-title">Other links</p>
+                    </li>
+
+                    <li>
+                        <a href="#" class="footer-link">FAQ</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="footer-link">Privacy Policy</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="footer-link">Support</a>
+                    </li>
+
+                </ul>
+
+                <ul class="footer-list">
+
+                    <li>
+                        <p class="footer-list-title">Contact Us</p>
+                    </li>
+
+                    <li class="footer-item">
+
+                        <div class="footer-item-icon">
+                            <ion-icon name="call"></ion-icon>
+                        </div>
+
+                        <div>
+                            <a href="tel:+9621509970" class="footer-item-link">+962-150-9970</a>
+                            <a href="tel:+9622581637" class="footer-item-link">+962-150-9970</a>
+                        </div>
+
+                    </li>
+
+                    <li class="footer-item">
+
+                        <div class="footer-item-icon">
+                            <ion-icon name="mail"></ion-icon>
+                        </div>
+
+                        <div>
+                            <a href="mailto:halabanihamad10@gmail.com"
+                                class="footer-item-link">halabanihamad10@gmail.com</a>
+                            <a href="mailto:>sajedakhasawneh5@gmail.com"
+                                class="footer-item-link">sajedakhasawneh5@gmail.com</a>
+                        </div>
+
+                    </li>
+
+                    <li class="footer-item">
+
+                        <div class="footer-item-icon">
+                            <ion-icon name="location"></ion-icon>
+                        </div>
+
+                        <address class="footer-item-link">
+                            Orange Coding Acadimy, Irbid, Jordan
+                        </address>
+
+                    </li>
+
+                </ul>
+
+            </div>
+            <div class="footer-bottom" style="display: block;">
+                <p class="copyright">
+                    &copy; 2025 <a href="https://saimcode.vercel.app" class="copyright-link">Saimcode</a>. All Right
+                    Reserved
+                </p>
+            </div>
+        </div>
+
+
+    </footer>
+<script>
+    // Function to handle login toggle
+window.onload = function () {
+  const logginuser = sessionStorage.getItem('isLoggedIn');
+  debugger
+
+  if (logginuser == "true") {
+
+    document.getElementById("login-button").className = "nav_none";
+    document.getElementById("logout-button").className = "nav_block";
+    document.getElementById("profile-icon").className = "nav_block";
+
+  }
+  else {
+    document.getElementById("login-button").className = "nav_block";
+    document.getElementById("logout-button").className = "nav_none";
+    document.getElementById("profile-icon").className = "nav_none";
+  }
+
+
+
+}
+
+
+// window.onload = updateLoginStatus();
+
+
+function logoutBTN() {
+  debugger
+  sessionStorage.isLoggedIn = "false";
+
+  document.getElementById("login-button").className = "nav_block";
+  document.getElementById("logout-button").className = "nav_none";
+  document.getElementById("profile-icon").className = "nav_none";
+}
+</script>
+</body>
+
+</html>

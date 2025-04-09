@@ -1,0 +1,53 @@
+[
+    {
+      "question": "What is the plural form of 'child'?",
+      "choices": ["Children", "Childs", "Childer", "Childen"],
+      "correct_answer": "Children"
+    },
+    {
+      "question": "Which word is a synonym for 'happy'?",
+      "choices": ["Sad", "Joyful", "Angry", "Tired"],
+      "correct_answer": "Joyful"
+    },
+    {
+      "question": "What is the past tense of 'go'?",
+      "choices": ["Went", "Gone", "Going", "Goes"],
+      "correct_answer": "Went"
+    },
+    {
+      "question": "Which of the following words is an antonym of 'easy'?",
+      "choices": ["Hard", "Simple", "Effortless", "Quick"],
+      "correct_answer": "Hard"
+    },
+    {
+      "question": "Choose the correct form of 'there' in the sentence: '_____ are many people at the party.'",
+      "choices": ["There", "Their", "They’re", "Thier"],
+      "correct_answer": "There"
+    },
+    {
+      "question": "What is the correct spelling?",
+      "choices": ["Receive", "Recieve", "Reieve", "Reacive"],
+      "correct_answer": "Receive"
+    },
+    {
+      "question": "What is the opposite of 'hot'?",
+      "choices": ["Cold", "Warm", "Boiling", "Frozen"],
+      "correct_answer": "Cold"
+    },
+    {
+      "question": "Which of the following is an adjective?",
+      "choices": ["Run", "Quick", "Happiness", "Easily"],
+      "correct_answer": "Quick"
+    },
+    {
+      "question": "Which sentence is grammatically correct?",
+      "choices": ["She can sings well.", "She can sing well.", "She can singing well.", "She can sings good."],
+      "correct_answer": "She can sing well."
+    },
+    {
+      "question": "What is the meaning of the word 'benevolent'?",
+      "choices": ["Kind", "Angry", "Generous", "Rude"],
+      "correct_answer": "Kind"
+    }
+  ]
+  

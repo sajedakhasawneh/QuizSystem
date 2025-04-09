@@ -1,0 +1,82 @@
+[
+    {
+      "question": "What is the past tense of 'go'?",
+      "option1": "goed",
+      "option2": "gone",
+      "option3": "went",
+      "option4": "goed",
+      "correct": "went"
+    },
+    {
+      "question": "Which pronoun refers to the speaker?",
+      "option1": "You",
+      "option2": "He",
+      "option3": "She",
+      "option4": "I",
+      "correct": "I"
+    },
+    {
+      "question": "What is the plural form of 'child'?",
+      "option1": "childs",
+      "option2": "childrens",
+      "option3": "children",
+      "option4": "childes",
+      "correct": "children"
+    },
+    {
+      "question": "Which word is an adjective?",
+      "option1": "Run",
+      "option2": "Quickly",
+      "option3": "Running",
+      "option4": "Runner",
+      "correct": "Quickly"
+    },
+    {
+      "question": "What is the correct preposition to use in the sentence 'I live _____ London.'?",
+      "option1": "on",
+      "option2": "at",
+      "option3": "in",
+      "option4": "to",
+      "correct": "in"
+    },
+    {
+      "question": "Which sentence is grammatically correct?",
+      "option1": "Me went to the store.",
+      "option2": "I went to the store.",
+      "option3": "I goes to the store.",
+      "option4": "Me go to the store.",
+      "correct": "I went to the store."
+    },
+    {
+      "question": "What is the comparative form of 'good'?",
+      "option1": "goodest",
+      "option2": "more good",
+      "option3": "better",
+      "option4": "most good",
+      "correct": "better"
+    },
+    {
+      "question": "Which word is a verb?",
+      "option1": "Happy",
+      "option2": "Beautiful",
+      "option3": "Jump",
+      "option4": "Slowly",
+      "correct": "Jump"
+    },
+    {
+      "question": "What is the superlative form of 'big'?",
+      "option1": "bigger",
+      "option2": "bigest",
+      "option3": "biggest",
+      "option4": "more big",
+      "correct": "biggest"
+    },
+    {
+      "question": "Which sentence is an example of the present continuous tense?",
+      "option1": "I eat breakfast.",
+      "option2": "I am eating breakfast.",
+      "option3": "I ate breakfast.",
+      "option4": "I will eat breakfast.",
+      "correct": "I am eating breakfast."
+    }
+  ]
